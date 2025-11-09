@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Graph.py (Dataset2)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Codes/Graph.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--dataset",
+                "Path_to_Your_Dataset",
+                "--model",
+                "yolov8n-face.pt",
+                "--conf",
+                "0.25",
+                "--iou",
+                "0.45",
+                "--center-threshold",
+                "0.18",
+                "--out",
+                "outputs"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
